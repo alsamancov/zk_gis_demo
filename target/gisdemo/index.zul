@@ -1,0 +1,6 @@
+<?page title="Add a GMap"?>
+<window title="Add a GMap" id="mainWindow" border="normal" width="300px">
+	<toolbarbutton id="addMapTbb" label="Add Map">
+		<attribute name="onClick"><![CDATA[Executions.createComponents("addgmapdialog.zul", mainWindow, null); ]]></attribute>
+	</toolbarbutton>
+</window>

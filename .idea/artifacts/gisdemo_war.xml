@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gisdemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="gisdemo.war">
+      <element id="artifact" artifact-name="gisdemo:war exploded" />
+    </root>
+  </artifact>
+</component>

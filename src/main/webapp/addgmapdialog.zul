@@ -1,0 +1,31 @@
+<zk>
+    <window id="addGmapDlg"
+            title="Taiwan directory : Add a map to the listing"
+            apply="com.example.gisdemo.AddGMapDialog"
+            sizable="false" closable="true" width="700px" border="normal" mode="overlapped" position="center,center">
+        <script
+                content="zk.googleAPIkey='AIzaSyAWqTRQ_17ecGK8MWif-kbUDjRNQWtYm8Q'"/>
+        <grid width="677px">
+            <columns>
+                <column width="100%" />
+            </columns>
+            <rows>
+                <row>
+                    <gmaps id="gmap" zoom="7" showTypeCtrl="true"
+                           mapType="hybrid" showLargeCtrl="true" width="670px" height="460px" lat="50.462742" lng="30.449433">
+                        <gmarker id="marker" draggable="true" lat="50.462742" lng="30.449433"></gmarker>
+                    </gmaps>
+                </row>
+                <row>
+                    <label id="infoLbl">
+                        Navigate the marker to the location of your listing
+                        then add the map.
+                    </label>
+                </row>
+                <row>
+                    <button id="addMapBtn" label="Add map"/>
+                </row>
+            </rows>
+        </grid>
+    </window>
+</zk>
